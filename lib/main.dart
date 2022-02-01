@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.deepOrangeAccent,
         ),
-        //primarySwatch: Colors.deepOrange,
-        //visualDensity: VisualDensity.adaptivePlatformDensity,
+        primarySwatch: Colors.deepOrange,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeScreen(),
     );
